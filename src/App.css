@@ -13,6 +13,29 @@
   }
 }
 
+.logo{
+  width: 100px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 20px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+nav ul li{
+  list-style: none;
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
